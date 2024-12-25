@@ -82,7 +82,7 @@ ul {
   margin-top: 10px;
 }
 
-header, main {
+header, main, section {
   background-color: #f5f9fc;
   width: 100%;
 }
@@ -165,10 +165,55 @@ main section button {
 /******************************************
 /* FEATURE PARTS
 /*******************************************/
+.features {
+  float: left;
+  width: 350px;
+  padding-left: 130px;
+  color: #253c50;
+}
 
+.featureContainer {
+  width: 100%;
+  padding-top: 70px;
+  height: 360px;
+}
 
+.features img {
+  width: 70px;
+}
 
+h4 {
+  font-size: 18px;
+  font-weight: 800;
+}
 
+section section a {
+  font-weight: 600;
+}
 /******************************************
 /* EVEN WHITE PARTS
 /*******************************************/
+
+article {
+  float: left;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
+article h2 {
+  font-size: 50px;
+  width: 550px;
+  color: #2c4458;
+}
+
+article p {
+  color: #93a5b6;
+  width: 650px;
+  font-size: 20px;
+}
+
+.blueBox {
+  padding: 40px 150px 0 150px;
+  background-color: #e2eaf0;
+  width: 1200px
+}
