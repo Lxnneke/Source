@@ -17,6 +17,25 @@
       clear: both;
   }
 
+
+@media only screen and (max-width: 500px) {
+  * {
+    width: 100%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  .leftSection {
+    padding-top: 0;
+    width: 100%;
+  }
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
